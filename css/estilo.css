@@ -1,0 +1,105 @@
+*{
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: 'Trebuchet MS';
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+a{	
+	color: #70caf2;
+	font-size: 1em;
+	text-decoration: none;
+}
+
+body{
+	height: 500px;
+	margin: 0 auto;
+	width: 550px;
+}
+footer{	
+	color: #70caf2;
+	font-size: 0.75em;
+	font-weight: bold;
+}
+h1{
+	background-color: #FF9D00;
+	color: #FFFFFF;
+	font-family: Rockwell;
+	font-size: 1.5em;
+	
+	text-shadow: 2px 2px 1px #999999;
+}
+
+td{
+	padding: 0.125em 0.125em;
+	width: 10.3125em;
+}
+#div_titulo_swt{
+	background-color: #FF9D00;
+	display: table-cell;
+	height: 3.125em;
+	text-align: center;
+	vertical-align: middle;
+	width: 34.375em;
+}
+
+.div_dia{
+	display: inline-block;
+	margin: 0.75em 0;
+	vertical-align: top;
+}
+
+.div_dia:nth-child(even){
+	border-left: 3px solid #FF9D00;
+	border-right: 3px solid #FF9D00;
+}
+
+.error{
+	color: #FF2E2E;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-shadow: 1px 1px #999999;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.horario{
+	color:#999999;
+	font-size: 0.625em;
+}
+
+.tachado{
+	text-decoration: line-through;
+}
+
+.titulo_dia{
+	color: #70caf2;
+	font-family: Rockwell;
+	font-size: 1.125em;
+	text-shadow: 1px 1px #999999;
+}
+
+.titulo{
+	color: #000000;
+	font-size: 0.875em;
+}
+
+.transcurso{
+	background-color: #FF9D00;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-shadow: 1px 1px #000000;
+}
+
+.transcurso_horario{
+	background-color: #FF9D00;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.transcurso_celda{
+	background-color: #FF9D00;
+	border: 1px solid #999999;
+}

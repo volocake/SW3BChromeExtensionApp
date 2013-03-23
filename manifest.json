@@ -1,0 +1,17 @@
+{
+	"name":"Calendario Startup Weekend Tijuana 3",
+	"version":"1.0.1",
+	"manifest_version":2,
+	"description":"Extension del Calendario Startup Weekend Tijuana Tercera Edición.",
+
+	"permissions": [           
+		"https://www.googleapis.com/calendar/*" 
+		], 
+
+	"browser_action":{
+		"default_title":"Extension del Calendario de Startup Weekend Tijuana",
+		"default_popup":"popup.html",
+		"default_icon":"imagenes/logoext128.png"
+	}
+
+}
