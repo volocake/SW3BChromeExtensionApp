@@ -9,7 +9,7 @@ var hoy = new Date();
 
 
 var llamarCalendario = function(){
-	//Comparo si estamos en marzo[2](MES DE PRUEBA)/abril[3]
+	//Comparo si estamos en marzo[2](MES DE PRUEBA) o abril[3]
 	if (hoy.getMonth() > 2 && hoy.getMonth() < 4){
 		
 		$.getJSON(requestCalendarGoogle, function(data) {

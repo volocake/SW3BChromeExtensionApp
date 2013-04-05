@@ -14,9 +14,9 @@ a{
 }
 
 body{
-	height: 500px;
+	height: 600px;
 	margin: 0 auto;
-	width: 550px;
+	width: 665px;
 }
 footer{	
 	color: #70caf2;
@@ -34,7 +34,7 @@ h1{
 
 td{
 	padding: 0.125em 0.125em;
-	width: 10.3125em;
+	width: 12.5em;
 }
 #div_titulo_swt{
 	background-color: #FF9D00;
@@ -42,7 +42,7 @@ td{
 	height: 3.125em;
 	text-align: center;
 	vertical-align: middle;
-	width: 34.375em;
+	width: 40.625em;
 }
 
 .div_dia{
